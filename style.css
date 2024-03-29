@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Initial background color */
+    background-image:url(./assets/initially.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #searchInput {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  #searchButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #weatherContainer {
+    margin-top: 30px;
+  }
+
+  #weatherInfo {
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  #error {
+    color: red;
+  }
